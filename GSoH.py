@@ -541,7 +541,7 @@ a = '\n\n'+hashvalue.hexdigest()
 b = hashvalue.hexdigest()
 print(a)
 send_message = 'Yes' #Yes or Not
-token = '' #token of vk.com (if 544 strings answer is "Yes")
+token = '' #token of vk.com (if 544 string answer is "Yes")
 ID =  #your ID on vk.com
 if send_message == 'Yes':
     import VKStarti as bot
