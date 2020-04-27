@@ -1,3 +1,4 @@
+#go to string 532
 import hashlib
 import random as ra
 r = ra.randint(1, 25)
