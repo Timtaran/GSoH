@@ -530,7 +530,7 @@ if g==1:
 else:
     f = ''
 yt = 'No' #your text?
-if yt == 'No'
+if yt == 'No':
     hc = '|{f}{r}{s}{t}{u}{v}{w}{x}{y}{z}'.format(f=f, r=r, s=s, t=t, u=u, v=v, w=w, x=x, y=y, z=z)
 else:
     hc = '' #your text
