@@ -546,6 +546,7 @@ ID =  #your ID on vk.com
 if send_message == 'Yes':
     import VKStarti as bot
     import vk_api
+    bot.reg(token)
     vk = vk_api.VkApi(token=token)
     vk = vk.get_api()
 
