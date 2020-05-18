@@ -556,4 +556,4 @@ if send_message == 'Yes':
         vk.messages.delete(message_ids=c1,delete_for_all=1)
     except:
        print('error on delete message')
-    bot.sms(549204433, 'String: ' + hc + '\nHash: ' + b)
+    bot.sms(ID, 'String: ' + hc + '\nHash: ' + b)
